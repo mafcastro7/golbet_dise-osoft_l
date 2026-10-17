@@ -105,6 +105,7 @@ public static class DbSeeder
                 HomeGoals = 2, AwayGoals = 1,
                 HomeOdds = 2.75m, DrawOdds = 3.10m, AwayOdds = 2.70m
             }
+
         };
 
         context.Matches.AddRange(matches);
